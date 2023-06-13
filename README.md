@@ -1,2 +1,15 @@
 # django-web-app
 Backend implementation using Django Framework
+
+##### Activités du 12/06/2023
+- Meeting de presentation des différentes activités de l'entreprise
+- Présentation des missions à réaliser durant tout le déroulement du stage
+- Début de la prise en main du framework Django
+
+
+#### Activités du 13/06/2023
+
+- Suite de la prise en Django
+- Implémentation du système d'administration de Django
+- Création des Models pour la gestion des Bases de données
+- Début de la modélisation des relations 1-n dans le contexte de Django
