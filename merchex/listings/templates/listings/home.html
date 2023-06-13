@@ -1,0 +1,47 @@
+{% extends 'listings/index.html' %}
+
+{% load static %}
+
+{% block styles %}
+ 
+  <!-- Favicons -->
+  <link href="{% static 'listings/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'listings/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  
+  <!-- Bootstrap CSS File -->
+  <link href="{% static 'listings/lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{% static 'listings/lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'listings/lib/animate/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'listings/lib/ionicons/css/ionicons.min.css" rel="stylesheet' %}">
+  <link href="{% static 'listings/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'listings/lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{% static 'listings/css/style.css' %}" rel="stylesheet">
+
+{% endblock %}
+
+
+
+{% block js %}
+
+  <!-- JavaScript Libraries -->
+  <script src="{% static 'listings/lib/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'listings/lib/jquery/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'listings/lib/popper/popper.min.js' %}"></script>
+  <script src="{% static 'listings/lib/bootstrap/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'listings/lib/easing/easing.min.js' %}"></script>
+  <script src="{% static 'listings/lib/counterup/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'listings/lib/counterup/jquery.counterup.js' %}"></script>
+  <script src="{% static 'listings/lib/owlcarousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'listings/lib/lightbox/js/lightbox.min.js' %}"></script>
+  <script src="{% static 'listings/lib/typed/typed.min.js' %}"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="{% static 'listings/contactform/contactform.js' %}"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="{% static 'listings/js/main.js' %}"></script>
+  
+{% endblock %}
