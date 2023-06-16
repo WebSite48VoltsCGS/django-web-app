@@ -20,3 +20,10 @@ Backend implementation using Django Framework
 - Gestion des actions CRUD avec les interfaces d'administration de Django
 - Gestion des redirections et les paramètres d'url(récupération de paramètre de requête dépuis une URL en GET)
 - Notions sur mise à jour d'une BD avec des migrations(annuler une migration ou revenir sur un etat précédent d'une BD)
+
+
+#### Activités du 16/06/2023
+
+- Gestion des requêtes POST depuis un formulaire
+- Utilisation de ModelForm pour la génération automatique de formulaire
+- Update un Model de BD avec un ModelForm

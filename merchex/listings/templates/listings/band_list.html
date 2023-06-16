@@ -3,7 +3,10 @@
 {% block content %}
 
 <h1>Hello Django !</h1>
-<p>Mes groupes préférés sont :</p>
+<p>Listes des groupes :</p>
+
+<a href="{% url 'band-create' %}">Créer un nouveau groupe</a>
+<br/><br/>
 
 <ul>
     {% for band in bands %}

@@ -1,0 +1,17 @@
+{% extends 'listings/base.html' %}
+
+{% block content %}
+<h1>Creation d'un Band</h1>
+<br/><br/>
+<a href="{% url 'bands' %}">Liste des groupes</a>
+<br/><br/>
+<form action="" method="post" class="form-control">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <input type="submit" value="Créer un Band" class="btn btn-success">
+
+</form>
+
+{% endblock %}

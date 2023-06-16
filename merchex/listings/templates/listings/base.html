@@ -6,11 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'listings/styles.css' %}">
+    <link href="{% static 'listings/lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'listings/lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'listings/lib/animate/animate.min.css' %}" rel="stylesheet">
     <title>Merchex | {{ page_name }}</title>
 </head>
 <body>
     {% block content %}
 
     {% endblock %}
+
+
+    <script src="{% static 'listings/lib/bootstrap/js/bootstrap.min.js' %}"></script>
 </body>
 </html>
