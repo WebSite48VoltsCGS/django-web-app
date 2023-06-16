@@ -1,0 +1,19 @@
+{% extends 'listings/base.html' %}
+
+{% block content %}
+
+<h1>Hello Django !</h1>
+<p>Informations du groupe :</p>
+
+<ul>
+    <li>{{ band.name | upper }}</li>
+    <li>{{ band.get_genre_display }}</li>
+    <li> {{ band.biography }} </li>
+    <li> {{ band.year_formed }} </li>
+    <li> {{ band.active }} </li>
+    <li> {{ band.official_homepage }} </li>
+</ul>
+
+<a href="{% url 'bands' %}">Retour à la liste des groupes</a>
+
+{% endblock %}

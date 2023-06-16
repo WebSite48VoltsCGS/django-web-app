@@ -11,6 +11,17 @@ def hello(request):
 
     return render(request, 'listings/hello.html', {'bands': bands, 'page_name': "Hello"})
 
+def band_list(request):
+    bands = Band.objects.all()
+
+    return render(request,'listings/band_list.html', {'bands': bands})
+
+def band_detail(request, id):
+    band = Band.objects.get(id=id)
+
+    return render(request, 'listings/band_detail.html', context={'band': band})
+
+
 def about(request):
     return render(request, 'listings/about.html')
 

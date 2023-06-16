@@ -23,4 +23,7 @@ urlpatterns = [
     path('listings/', views.listing),
     path('contact-us/', views.contact),
     path('', views.home),
+
+    path('bands/', views.band_list, name='bands'),
+    path('bands/<int:id>/', views.band_detail, name='band-detail')
 ]

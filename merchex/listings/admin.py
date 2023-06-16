@@ -11,7 +11,7 @@ class BandAdmin(admin.ModelAdmin):
     list_display = ('name', 'year_formed','genre') ### liste des champs que l'on souhaite sur l'affichage de la liste
 
 class ListingAdmin(admin.ModelAdmin):
-    list_display = ('title', 'description', 'sold', 'year')
+    list_display = ('title', 'band', 'description', 'sold', 'year')
 
 
 #admin.site.register(Band)
